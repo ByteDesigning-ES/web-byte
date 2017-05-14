@@ -3,6 +3,11 @@
     src: url(../fonts/OCRAEXT.TTF) format("truetype");
     font-weight: normal;
 }
+
+/*a:focus, 
+a:hover{
+    text-decoration: none;
+}*/
 li {
     display: list-item;
     list-style: none;
