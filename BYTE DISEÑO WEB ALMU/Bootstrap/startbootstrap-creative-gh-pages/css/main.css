@@ -1,0 +1,55 @@
+@font-face {
+    font-family: OCRAEXT;
+    src: url(../fonts/OCRAEXT.TTF) format("truetype");
+    font-weight: normal;
+}
+.titulo-byte {
+ font-family:"OCRAEXT" !important;  
+ color: green;
+}
+.mapa {
+	display: block;
+	width: 610px;
+    height: 310px;
+    margin: 0px auto;
+    margin-bottom: 61px;
+    border: 3px solid #F05F40;
+}
+.horarios {
+	display: block;
+    width: 280px;
+    border: 3px solid #F05F40;
+    position: relative;
+    	left: -80px;
+    	bottom: -65px;
+    overflow: hidden;
+    text-align: center;
+    padding: 13px;
+    font-size: 3em;
+}
+
+#footer{
+    display: block;
+    width: 100%;
+}
+.footerh2 {
+    display: inline-block;
+    text-align: center;
+}
+.formcontact {
+    width: 60%;
+    margin: 4% auto;
+    padding: 2%;
+}
+.mdl-expand {
+    width: 604px;
+}
+button.mdl-button.mdl-button--raised.mdl-js-button.mdl-js-ripple-effect {
+    float: right;
+}
+.tabla-footer {
+    display: inline-block;
+    float: left;
+    margin: 0px auto;
+    width: 100%;
+}
