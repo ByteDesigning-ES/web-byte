@@ -3,6 +3,10 @@
     src: url(../fonts/OCRAEXT.TTF) format("truetype");
     font-weight: normal;
 }
+li {
+    display: list-item;
+    list-style: none;
+}
 .titulo-byte {
  font-family:"OCRAEXT" !important;  
  color: green;
@@ -28,10 +32,6 @@
     font-size: 3em;
 }
 
-#footer{
-    display: block;
-    width: 100%;
-}
 .footerh2 {
     display: inline-block;
     text-align: center;
