@@ -4,10 +4,10 @@
     font-weight: normal;
 }
 
-/*a:focus, 
+a:focus, 
 a:hover{
     text-decoration: none;
-}*/
+}
 li {
     display: list-item;
     list-style: none;
