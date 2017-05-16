@@ -1,20 +1,18 @@
 @font-face {
-    font-family: OCRAEXT;
-    src: url(../fonts/OCRAEXT.TTF) format("truetype");
+    font-family: Niamey Regular;
+    src: url(../fonts/Niamey Regular.ttf) format("truetype");
     font-weight: normal;
-}
-
-a:focus, 
-a:hover{
-    text-decoration: none;
 }
 li {
     display: list-item;
     list-style: none;
 }
 .titulo-byte {
- font-family:"OCRAEXT" !important;  
- color: green;
+ font-family:"Niamey Regular" !important;  
+}
+a:focus, 
+a:hover{
+    text-decoration: none;
 }
 .mapa {
 	display: block;
@@ -36,7 +34,6 @@ li {
     padding: 13px;
     font-size: 3em;
 }
-
 .footerh2 {
     display: inline-block;
     text-align: center;
@@ -75,8 +72,10 @@ main,aside {
     width: 100%;
     margin: 0px;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
     font-size:1.2vw;
+    position: relative;
+    bottom: 120px;
+
 }
 #formcontacto {
     display: block;
@@ -84,7 +83,6 @@ main,aside {
     margin: 20px auto;
     border: 4px solid blue;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
     font-size:1.2vw;
 }
 .formcontact {
@@ -92,7 +90,6 @@ main,aside {
     width: 60%;
     margin: 0 auto;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
     font-size:1.2vw;
 }
 
@@ -101,43 +98,59 @@ form#dosformcontacto {
     width: 90%;
     margin: 20px auto;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
     font-size:1.2vw;
 }
-#mapa {
-    display: block;
-    margin: 20px auto;
-    width: 80%;
-}
 
-.horarios {
-    display: block;
-    width: 40%;
-    text-align: center;
-    font-size:1.2vw;
-    border-style: solid;
-    border-color: #697a2f;
-    padding: 5%;
-}
-.horarios:hover {
-    background-color: rgba(163, 189, 49, 0.39);
-    color: #697a2f;
-    border-color: darkkhaki;
-}
-
-.dejanosmsj:hover {
-    color:#697a2f;
-    font-size:2.4vw;
-    transition-duration: 2s;
-}
 #mapa {
     display: block;
     width: 40%;
     height: 400px;
-    margin-top: 110px;
-    margin-bottom: 106px;
+    margin: 20px auto;
     -webkit-box-shadow: -1px -1px 45px 21px rgba(0,0,0,0.13);
     -moz-box-shadow: -1px -1px 45px 21px rgba(0,0,0,0.13);
     box-shadow: -1px -1px 45px 21px rgba(0,0,0,0.13);
 }
-
+#videos {
+    display: inline-block;
+    width: 80%;
+    margin:0px auto;
+}
+video {
+    display: inline-block;
+    width: 20%;
+    margin: 0px auto;
+}
+.position-serv {
+    position: relative;
+    top: 50px;
+}
+.background-edicion {
+    background-image: url(../img/edicion.jpg);
+    background-repeat: no-repeat;
+}
+.background-desarrollo {
+    background-image: url(../img/desarrollo.jpg);
+    background-repeat: no-repeat;
+}
+.background-diseño {
+    background-image: url(../img/diseno.jpg);
+    background-repeat: no-repeat;
+}
+.background-posicionamiento{
+    background-image: url(../img/posicionamiento.jpg);
+    background-repeat: no-repeat;
+}
+.background-posicionamiento2{
+    background-image: url(../img/seosem.jpg);
+    height: 499px;
+    background-repeat: no-repeat;
+}
+#menu ul li.nivel1 {
+    float: left;
+    width: 162px;
+    margin-right: 2px;
+    }
+.caracteristicas {
+    display: block;
+    background-color: grey;
+}

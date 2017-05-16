@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="página web dedicada al diseño corporativo">
     <meta name="author" content="Almudena Mateo Cantón">
-    <title>Bytedesigning</title>
+    <title>Bytedesigning|Contacto</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -18,15 +18,24 @@
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="shortcut icon" href="img/esfericusBn-01.png"/>
+    <link rel="shortcut icon" href="img/logo-byte.png"/>
     <!--color material design-->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!--color material design-->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-orange.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 </head>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+
 <body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -37,18 +46,27 @@
                 </button>
                 <a class="navbar-brand page-scroll titulo-byte" href="#page-top">Bytedesigning</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Bytedesigning</a>
+                        <a href="index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="servicios.html">Servicios</a>
+                        <a href="diseño.html">Diseño</a>
                     </li>
                     <li>
-                        <a href="#contacto">Contacto</a>
+                        <a href="desarrollo.html">Desarrollo</a>
+                    </li>
+                    <li>
+                        <a href="posicionamiento.html">Posicionamiento</a>
+                    </li>
+                    <li>
+                        <a href="edicion.html">Edición</a>
+                    </li>
+                    <li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -72,87 +90,55 @@
             </div>-->
         </div>
     </section>
-    <!-- Formulario -->
-     <!--<div class="android-content mdl-layout__content">
-        <a name="top"></a>
-       <div class="formcontact mdl-card mdl-shadow--16dp">
-         <form action="#">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*" id="sample3">
-              <label class="mdl-textfield__label" for="sample3">Nombre</label>
-              <span class="mdl-textfield__error">Introduzca un nombre válido!</span>
-            </div>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*" id="sample4">
-              <label class="mdl-textfield__label" for="sample4">Apellido</label>
-              <span class="mdl-textfield__error">Introduzca un apellido válido!</span>
-            </div>
-            <br>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-              <label class="mdl-textfield__label" for="sample2">Teléfono</label>
-              <span class="mdl-textfield__error">Eso no es un número!</span>
-            </div>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="sample2">
-              <label class="mdl-textfield__label" for="sample2">eMail</label>
-              <span class="mdl-textfield__error">Introduzca el formato de eMail nombre@correo!</span>
-            </div>
-            <br>
-            <div class="mdl-textfield mdl-js-textfield mdl-expand">
-              <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
-              <label class="mdl-textfield__label" for="sample5">Introduzca el mensaje...</label>
-            </div>
-            <br>
-            <button class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect">Enviar<i class="material-icons"></i></button>
-         </form>
-       </div>-->
     <main>
-            <section class="contacto" id="contacto"> <!--reconocido por google por ello ponemos class e id-->
-                <div class="formcontact mdl-card mdl-shadow--16dp" id="cajacontacto">
-                <form action="PHP/contacto.php" id="dosformcontacto" method="submit" accept-charset="utf-8">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*">
-                      <label class="mdl-textfield__label">Nombre</label>
-                      <span class="mdl-textfield__error">Introduzca un nombre válido!</span>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*">
-                      <label class="mdl-textfield__label">Apellido</label>
-                      <span class="mdl-textfield__error">Introduzca un apellido válido!</span>
-                    </div>
-                    <br>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?">
-                      <label class="mdl-textfield__label">Teléfono</label>
-                      <span class="mdl-textfield__error">Eso no es un número!</span>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                      <label class="mdl-textfield__label">eMail</label>
-                      <span class="mdl-textfield__error">Introduzca el formato de eMail nombre@correo!</span>
-                    </div>
-                    <br>
-                    <div class="mdl-textfield mdl-js-textfield mdl-expand">
-                      <textarea class="mdl-textfield__input" type="text"></textarea>
-                      <label class="mdl-textfield__label">Introduzca el mensaje...</label>
-                    </div>
-                    <br>
-                    <button class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" id="button">ENVIAR <i class="material-icons">send</i></button>
-                </form>
+        <section class="contacto" id="contacto"> <!--reconocido por google por ello ponemos class e id-->
+            <div class="formcontact mdl-card mdl-shadow--16dp" id="cajacontacto">
+            <form action="PHP/contacto.php" id="dosformcontacto" method="submit" accept-charset="utf-8">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*">
+                  <label class="mdl-textfield__label">Nombre</label>
+                  <span class="mdl-textfield__error">Introduzca un nombre válido!</span>
                 </div>
-                <div>  <!--mapa-->
-                    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.020860609678!2d-3.8143196846036616!3d40.43053697936347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41866d2764a673%3A0x5dc2e1074054533f!2sCalle+San+Juan+de+la+Cruz%2C+2%2C+28223+Pozuelo+de+Alarc%C3%B3n%2C+Madrid!5e0!3m2!1ses!2ses!4v1493893744592"></iframe>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z, ]*">
+                  <label class="mdl-textfield__label">Apellido</label>
+                  <span class="mdl-textfield__error">Introduzca un apellido válido!</span>
                 </div>
-            </section>   
-        </main>
-  
+                <br>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?">
+                  <label class="mdl-textfield__label">Teléfono</label>
+                  <span class="mdl-textfield__error">Eso no es un número!</span>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                  <label class="mdl-textfield__label">eMail</label>
+                  <span class="mdl-textfield__error">Introduzca el formato de eMail nombre@correo!</span>
+                </div>
+                <br>
+                <div class="mdl-textfield mdl-js-textfield mdl-expand">
+                  <textarea class="mdl-textfield__input" type="text"></textarea>
+                  <label class="mdl-textfield__label">Introduzca el mensaje...</label>
+                </div>
+                <br>
+                <button class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect" id="button">ENVIAR <i class="material-icons">send</i></button>
+            </form>
+            </div>
+            <div class="map-responsive" id="mapa">  <!--mapa-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12148.069276401664!2d-3.8121539!3d40.4306154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdfbc2daeb3a1390!2sByte+Designing+S.L.!5e0!3m2!1ses!2ses!4v1494918681188" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>  
+        <div class="footer">
+          <div class="container text-center">
+                  <a href='https://es-es.facebook.com/BDesigning/'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+                  <a href='https://twitter.com/bdesigning'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+                  <a href='https://www.linkedin.com/company/byte-designing'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+          </div>
+    </main>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
