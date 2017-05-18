@@ -337,3 +337,11 @@
  		color:#fff;
  		background:0 0;
  	}
+/*para las cookies*/
+@media only screen and (min-width:768px) {
+    #barraaceptacion {
+    min-width:1000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+}
