@@ -1,6 +1,6 @@
 <?php
 	if(isset($_POST['email'])) {
-	$email_to = "unamaslobo@gmail.com";
+	$email_to = "info@bytedesigning.net";
 	$email_subject = "Mensaje desde la web";
 	
 	if(!isset($_POST['first_name']) ||
