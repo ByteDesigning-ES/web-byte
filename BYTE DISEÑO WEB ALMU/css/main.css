@@ -209,13 +209,13 @@ transform: perspective(600px) rotateY(-180deg) translateX(100%);
     display: inline-block;
     margin: 0px auto;
     position: relative;
-    right: -20%;
+    right: 50%;
 }
 .madre{
     display: inline-block;
     margin: 0px auto;
     position: relative;
-    left: 50%;
+    left: -10%;
 }
 .atras{
      
