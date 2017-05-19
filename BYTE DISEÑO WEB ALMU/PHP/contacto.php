@@ -11,15 +11,15 @@
 
 	$to = 'luis90madrid@gmail.com'; 
 	$from = 'info@bytedesigning.net'; 
-	$host = 'info.bytedesigning.net'; 
+	$host = 'smtp.bytedesigning.net'; 
 	$username = 'info@bytedesigning.net'; 
 	$password = '@1234a56B'; 
 	$subject = 'webmailform'; 
 	$body = 'Nombre: $Name \n<br/>'.
 	'Apellido/s: $LastName'.
-    'Mail: $Mail \n<br/>'.
-    'Tel: $Phone \n<br/>'.
-    'Mensaje: $Comments \n<br/>'; 
+    	'Mail: $Mail \n<br/>'.
+    	'Tel: $Phone \n<br/>'.
+    	'Mensaje: $Comments \n<br/>'; 
 
 	$headers = array ('From' => $from,
 	'To' => $to,
