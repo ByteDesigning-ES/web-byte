@@ -1,5 +1,5 @@
 <?php
-	if(isset($_POST['email'])) {
+	/*if(isset($_POST['email'])) {
 	$email_to = "info@bytedesigning.net";
 	$email_subject = "Mensaje desde la web";
 	
@@ -26,17 +26,45 @@
 	@mail($email_to, $email_subject, $email_message, $headers);
 
 	echo "¡El formulario se ha enviado con éxito!";
+	}*/
+	error_reporting( E_ALL & ~( E_NOTICE | E_STRICT | E_DEPRECATED ) );
+
+	require_once "Mail.php"; 
+
+	$Name = $_POST['first_name'];
+	$LastName = $_POST['last_name'];
+	$Mail = $_POST['email'];
+	$Phone = $_POST['telephone'];
+	$Comments = $_POST['comments'];
+
+	$to = 'luis90madrid@gmail.com'; 
+	$from = 'info@bytedesigning.net'; 
+	$host = 'info.bytedesigning.net'; 
+	$username = 'info@bytedesigning.net'; 
+	$password = '@1234a56B'; 
+	$subject = 'webmailform'; 
+	$body = 'Nombre: $Name \n<br/>'.
+	'Apellido/s: $LastName'
+    	'Mail: $Mail \n<br/>'.
+    	'Tel: $Phone \n<br/>'.
+    	'Mensaje: $Comments \n<br/>'; 
+
+	$headers = array ('From' => $from,
+	'To' => $to,
+	'Subject' => $subject);
+
+	$smtp = Mail::factory('smtp',
+	array ('host' => $host,
+	'auth' => true,
+	'username' => $username,
+	'password' => $password));
+
+	$mail = $smtp->send($to, $headers, $body);
+
+	if (PEAR::isError($mail)) {
+		echo(" " . $mail->getMessage() . " ");
+	}
+	else {
+		echo "Mensaje enviado desde Web Byte a ". $to ;
 	}
 ?>
-
-
-
-<!-- CORREGIR ACENTOS, FUENTE: http://www.esandra.com/enviar-correo-via-php-con-codificacion-utf-8-de-acentos-y-n/
-
-&amp;lt;?php
- function mail_utf8($to, $subject = '(No subject)', $message = '', $header = '') {
-  $header_ = 'MIME-Version: 1.0' . &amp;quot;rn&amp;quot; . 'Content-type: text/plain; charset=UTF-8' . &amp;quot;rn&amp;quot;;
-  mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $message, $header_ . $header);
-}
- 
-?&amp;gt;-->
