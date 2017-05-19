@@ -293,14 +293,3 @@ opacity:0;
     opacity:1;
 }
 .alante:hover {opacity:0;}*/
-.nav>li>a {
-    position: relative;
-    right: 21px;
-    display: block;
-    padding: 10px 20px;
-}
-.nav>li {
-    position: relative;
-    display: block;
-    right: 21px;
-}
