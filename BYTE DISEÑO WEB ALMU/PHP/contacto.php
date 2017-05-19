@@ -45,9 +45,9 @@
 	$subject = 'webmailform'; 
 	$body = 'Nombre: $Name \n<br/>'.
 	'Apellido/s: $LastName'
-    	'Mail: $Mail \n<br/>'.
-    	'Tel: $Phone \n<br/>'.
-    	'Mensaje: $Comments \n<br/>'; 
+    	'Mail: $Mail \n <br />'.
+    	'Tel: $Phone \n <br />'.
+    	'Mensaje: $Comments \n <br />'; 
 
 	$headers = array ('From' => $from,
 	'To' => $to,
