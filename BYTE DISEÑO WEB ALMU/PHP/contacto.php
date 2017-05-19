@@ -1,37 +1,4 @@
-<?php
-	/*if(isset($_POST['email'])) {
->>>>>>> 24ddfd4dd437e95c26fdaeace0ec779e9ad48aad
-	$email_to = "info@bytedesigning.net";
-	$email_subject = "Mensaje desde la web";
-	
-	if(!isset($_POST['first_name']) ||
-	!isset($_POST['last_name']) ||
-	!isset($_POST['email']) ||
-	!isset($_POST['telephone']) ||
-	!isset($_POST['comments'])) {
-	
-	echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
-	echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
-	die();
-	}
-
-	$email_message .= "Nombre: " . $_POST['first_name'] . "\n";
-	$email_message .= "Apellido: " . $_POST['last_name'] . "\n";
-	$email_message .= "E-mail: " . $_POST['email'] . "\n";
-	$email_message .= "Teléfono: " . $_POST['telephone'] . "\n";
-	$email_message .= "Comentarios: " . $_POST['comments'] . "\n\n";
-
-	$headers = 'From: '.$email_from."\r\n".
-	'Reply-To: '.$email_from."\r\n" .
-	'X-Mailer: PHP/' . phpversion();
-	@mail($email_to, $email_subject, $email_message, $headers);
-
-	echo "¡El formulario se ha enviado con éxito!";
-<<<<<<< HEAD
-	}
-?>-->
-=======
-	}*/
+<?php 
 	error_reporting( E_ALL & ~( E_NOTICE | E_STRICT | E_DEPRECATED ) );
 
 	require_once "Mail.php"; 
@@ -49,10 +16,10 @@
 	$password = '@1234a56B'; 
 	$subject = 'webmailform'; 
 	$body = 'Nombre: $Name \n<br/>'.
-	'Apellido/s: $LastName'
-    	'Mail: $Mail \n <br />'.
-    	'Tel: $Phone \n <br />'.
-    	'Mensaje: $Comments \n <br />'; 
+	'Apellido/s: $LastName'.
+    'Mail: $Mail \n<br/>'.
+    'Tel: $Phone \n<br/>'.
+    'Mensaje: $Comments \n<br/>'; 
 
 	$headers = array ('From' => $from,
 	'To' => $to,
