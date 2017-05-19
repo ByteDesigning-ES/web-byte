@@ -299,3 +299,8 @@ opacity:0;
     display: block;
     padding: 10px 20px;
 }
+.nav>li {
+    position: relative;
+    display: block;
+    right: 21px;
+}
