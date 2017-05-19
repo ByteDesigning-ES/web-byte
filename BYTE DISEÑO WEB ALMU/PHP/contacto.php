@@ -28,3 +28,15 @@
 	echo "¡El formulario se ha enviado con éxito!";
 	}
 ?>
+
+
+
+<!-- CORREGIR ACENTOS, FUENTE: http://www.esandra.com/enviar-correo-via-php-con-codificacion-utf-8-de-acentos-y-n/
+
+&amp;lt;?php
+ function mail_utf8($to, $subject = '(No subject)', $message = '', $header = '') {
+  $header_ = 'MIME-Version: 1.0' . &amp;quot;rn&amp;quot; . 'Content-type: text/plain; charset=UTF-8' . &amp;quot;rn&amp;quot;;
+  mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $message, $header_ . $header);
+}
+ 
+?&amp;gt;-->
