@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 	if(isset($_POST['email'])) {
 	$email_to = "info@bytedesigning.net";
 	$email_subject = "Mensaje desde la web";
@@ -27,7 +27,7 @@
 
 	echo "¡El formulario se ha enviado con éxito!";
 	}
-?>
+?>-->
 
 
 
