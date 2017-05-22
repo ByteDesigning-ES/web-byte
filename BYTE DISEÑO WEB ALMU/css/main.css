@@ -194,7 +194,7 @@ display: inline-block;
     -moz-transition:all 1s ease-out;  /* Mozilla Firefox */
     -ms-transition:all 1s ease-out;
     position: relative;
-    right: 344px;
+    right: 343px;
 
     }
 .flipL:hover{
@@ -214,7 +214,7 @@ display: inline-block;
     -moz-transition:all 1s ease-out;  /* Mozilla Firefox */
     -ms-transition:all 1s ease-out;
     position: relative;
-    left: 104px;
+    left: 105px;
     bottom: 336px;
     }
 
