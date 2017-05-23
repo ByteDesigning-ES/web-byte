@@ -116,6 +116,10 @@ video {
     background-image: url(../img/edicion.jpg);
     background-repeat: no-repeat;
 }
+.background-contacto {
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+}
 .background-desarrollo {
     background-image: url(../img/desarrollo.jpg);
     background-repeat: no-repeat;
