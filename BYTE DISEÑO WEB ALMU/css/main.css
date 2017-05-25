@@ -184,51 +184,52 @@ video {
     color: #ccc;
 }
 
+/* imagen luis boville lobo
 .flipL{
 display: inline-block;
 overflow: hidden;
-    -webkit-transition:all 1s ease-out;  /* Chrome y Safari */
-    -o-transition:all 1s ease-out;  /* Opera */
-    -moz-transition:all 1s ease-out;  /* Mozilla Firefox */
+    -o-transition:all 1s ease-out;  
+    -moz-transition:all 1s ease-out;  
     -ms-transition:all 1s ease-out;
     position: relative;
     right: 343px;
 
-    }
-.flipL:hover{
-/*transform: perspective(600px) rotateY(-180deg) translateX(100%);*/
+    }*/
+/*.flipL:hover{
 opacity:0;
-}
-.flip2 {
+}*/
+/*. imagen texto luis
+flip2 {
     display: inline-block;
     overflow: hidden;
     position: relative;
     right: 33px;
-}
+}*/
 
+/* imagen almudena mateo canton
 .flipA{
 display: inline-block;
 overflow: hidden;
-    -webkit-transition:all 1s ease-out;  /* Chrome y Safari */
-    -o-transition:all 1s ease-out;  /* Opera */
-    -moz-transition:all 1s ease-out;  /* Mozilla Firefox */
+    -webkit-transition:all 1s ease-out;  
+    -o-transition:all 1s ease-out;  
+    -moz-transition:all 1s ease-out; 
     -ms-transition:all 1s ease-out;
     position: relative;
     left: 105px;
     bottom: 336px;
     }
+    */
 
-.flip2a {
+/*.flip2a {
     display: inline-block;
     overflow: hidden;
     position: relative;
     left: 415px;
     bottom: 336px;
-}
-.flipA:hover{
-/*transform: perspective(600px) rotateY(-180deg) translateX(100%);*/
+}*/
+/*.flipA:hover{
 opacity:0;
-}
+}*/
 
 /*footer 1 negro*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
