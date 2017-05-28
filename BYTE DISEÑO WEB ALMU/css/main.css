@@ -1,15 +1,14 @@
 @font-face {
-    font-family: "Niamey Regular";
-    src: url(../fonts/Niamey Regular.ttf) format("truetype");
+    font-family: "Niamey Regular" !important;
+    src: url(../fonts/Niamey-Regular.ttf) format("truetype") !important;
     font-weight: normal;
-}
-
-li {
-    display: list-item;
-    list-style: none;
 }
 .titulo-byte {
  font-family: "Niamey Regular" !important;  
+}
+li {
+    display: list-item;
+    list-style: none;
 }
 a:focus, 
 a:hover{
