@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Niamey-Regular;
-    src: url(../fonts/Niamey-Regular.ttf);
-    font-weight: normal; 
+    font-family: "Niamey Regular" !important;
+    src: url("../fonts/Niamey-Regular.ttf") format("truetype") !important;
+    font-weight: normal;
 }
-a.navbar-brand.page-scroll.titulo-byte {
- font-family: Niamey-Regular;  
+.titulo-byte {
+ font-family: "Niamey-Regular" !important;  
  position: relative;
- left: 60px;
+    left: 53px;
 }
 .logo-byte {
     display: block;
@@ -497,3 +497,27 @@ footer {
     border-color: #fff;
 }
 /*fin slider*/
+.mdl-textfield.is-invalid .mdl-textfield__input {
+    border-color: #f05f40 !important;
+    box-shadow: none;
+}
+.mdl-textfield__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: black !important;
+}
+.mdl-textfield.is-invalid .mdl-textfield__input {
+    border-color: #f05f40 !important;
+    box-shadow: none;
+}
+label {
+    color:#f05f40 !important;
+}
