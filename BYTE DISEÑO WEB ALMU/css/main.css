@@ -315,4 +315,12 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  }
  /*fin footer 1 negro*/
 
-
+.footer-material a {
+    color: rgb(240, 95, 64);
+}
+@media only screen and (max-width:768px) {
+   .footer-material {
+        display: block;
+        width: 100%;
+    }
+}
