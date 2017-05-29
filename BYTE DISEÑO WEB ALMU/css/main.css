@@ -56,6 +56,23 @@ main,aside {
     width: 40%;
     margin: 40px auto;
 }
+@media only screen and (max-width:768px) {
+    #cajacontacto {
+        display: block;
+        width: 100%;
+    }
+}
+#cajaformulario {
+    display: block;
+    width: 40%;
+    margin: 40px auto;
+}
+@media only screen and (max-width:768px) {
+    #cajaformulario {
+        display: block;
+        width: 70%;
+    }
+}
 #contacto {
     display: block;
     width: 100%;
@@ -298,9 +315,4 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  }
  /*fin footer 1 negro*/
 
-@media only screen and (max-width:768px) {
-    #cajacontacto {
-        display: block;
-        width: 100%;
-    }
-}
+
