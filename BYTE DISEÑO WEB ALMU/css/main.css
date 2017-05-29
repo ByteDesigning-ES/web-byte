@@ -6,6 +6,7 @@
 .titulo-byte {
  font-family: "Niamey Regular" !important;  
 }
+
 li {
     display: list-item;
     list-style: none;
@@ -297,3 +298,9 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  }
  /*fin footer 1 negro*/
 
+@media only screen and (max-width:768px) {
+    #cajacontacto {
+        display: block;
+        width: 100%;
+    }
+}
