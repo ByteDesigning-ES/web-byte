@@ -5,6 +5,15 @@
 }
 .titulo-byte {
  font-family: "Niamey Regular" !important;  
+ position: relative;
+    left: 60px;
+}
+.logo-byte {
+    display: block;
+    width: 45px;
+    position: fixed;
+    top: 0px;
+    margin: 3px;
 }
 
 li {
