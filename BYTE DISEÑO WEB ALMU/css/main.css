@@ -268,9 +268,21 @@ li{
     list-style-type:none;
 }
 
-footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
-.footer-col { margin-top:50px; }
-.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+footer { 
+    background-color:#0c1a1e; 
+    min-height:350px; 
+    font-family: 'Open Sans', sans-serif; }
+.footer-col { 
+    margin-top:50px; 
+}
+.logofooter { 
+    margin-bottom:10px; 
+    font-size:25px; 
+    color:#fff; 
+    font-weight:700;
+    position: relative;
+    left: 1px;
+}
 
 .footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
 .footer-col p i { width:20px; color:#999;}
