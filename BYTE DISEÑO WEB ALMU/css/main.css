@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Niamey Regular" !important;
-    src: url(../fonts/Niamey-Regular.ttf) format("truetype") !important;
+    src: url("../fonts/Niamey-Regular.ttf") format("truetype") !important;
     font-weight: normal;
 }
 .titulo-byte {
- font-family: "Niamey Regular" !important;  
+ font-family: "Niamey-Regular" !important;  
  position: relative;
     left: 60px;
 }
@@ -15,7 +15,6 @@
     top: 0px;
     margin: 3px;
 }
-
 li {
     display: list-item;
     list-style: none;
@@ -316,9 +315,7 @@ footer {
     color: white;
     min-height: 40px;
     background-color: #000000;
-    position: relative;
-    top: -20px;
-}
+    padding-top: 1px;
 }
  .copyright p { 
     font-family: -webkit-body;

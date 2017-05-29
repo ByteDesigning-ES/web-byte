@@ -10,11 +10,3 @@
     display: block;
     padding: 10px 20px;
 }
-.bg-primary {
-    color: #fff;
-    background-color: #f05f40 !important;
-}
-a {
-    color: #f05f40 !important;
-    text-decoration: none;
-}

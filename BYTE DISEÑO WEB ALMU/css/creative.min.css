@@ -2,7 +2,8 @@
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */.navbar-default,a{
+ */
+ .navbar-default,a{
  	-webkit-transition:all .35s;
  	-moz-transition:all .35s;
  }
