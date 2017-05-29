@@ -56,10 +56,35 @@
     <section class="bg-primary caracteristicas" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-11 text-center">
                     <h2 class="section-heading">Herramientas</h2>
                     <hr>
-                    <p class="text-faded">La herramienta utilizada es <a href="http://getbootstrap.com/">Bootstrap</a><a href="https://www.sublimetext.com/">Sublimetext</a>&nbsp;como IDE de desarrollo<a href="https://github.com/">GitHub</a>&nbsp;(por consola) para el control de versiones, con el repositorio de código en GitHub<a href="https://www.hostalia.com/">Hostalia</a>&nbsp;para el alojamiento web. Se ha creado un subdominio de desarrollo en bytedesigning y que se han configurado los ficheros robots.txt y el htacces<a href="https://www.visualstudio.com/es/team-services/">Visual Studio Team Services</a>&nbsp;para el desarrollo y la integración contínua<a href="https://slack.com/">Slack</a>&nbsp;usamos slack con github y Visual Studio para que nos notifique cuando se hacen los push y las builds.</p>
+                        <div class="container">
+                            <div class="col-lg-4">
+                                <a href="http://getbootstrap.com/"><img class="img-responsive" src="img/herramientas/bootstrap.jpg" alt="sublime text"></a>
+                                <p class="text-justify">Hemos elegido el framework de desarrollo Bootstrap 3 para nuestra página web debido a las facilidades que aporta a la hora de hacer el desarrollo frontend de portales responsive y mobile first. Para empezar el proyecto base, seleccionamos los archivos de inicio que proporciona el propio framework, y de ahí fuimos desarrollando nuestro sitio web y su estructura. Además, fuimos añadiendo las librerías y plugins que vimos necesarios y adaptamos los archivos fuente de css a nuestras necesidades. La plantilla viene con una sola página de html, el “index.html”, con carpetas de imágenes, Css, JavaScript y fuentes. Tomando esta plantilla como modelo hemos ido organizando la página según el prototipo.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://www.sublimetext.com/"><img class="img-responsive" src="img/herramientas/sublime.jpg" alt="sublime text"></a>
+                                <p class="text-justify">Como IDE de desarrollo seleccioné Sublime ya que es el que mejor se ajusta a las necesidades de este proyecto en concreto.Las carpeta contenedora de la página donde se encuentran todos los archivos y demás carpetas la arrastramos a Sublime. De esta manera se podrán ir abriendo los archivos que queramos editar.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://github.com/"><img class="img-responsive" src="img/herramientas/git.jpg" alt="git"></a>
+                                <p class="text-justify">Para el control de versiones hemos elegido el sistema open source Git. Este es un sistema distribuido de control de versiones, que nos permite llevar un control sobre los cambios realizados en nuestro proyecto, pensado principalmente para el código. Además, nos permite el poder estar trabajando desde diferentes ubicaciones sin tener que llevar un disco de almacenamiento ni ir copiando y pegandolo en distintos sistemas de almacenamiento en la nube. No sólo eso, sino que está pensado para equipos de una persona, hasta múltiples personas trabajando en el mismo proyecto, permitiendo un trabajo en paralelo continuo, manteniendo los cambios actualizados y seguros. Obviamente, ese código hay que almacenarlo en algún lugar que esté disponible desde diferentes ubicaciones, para diferentes equipos y personas, y que a su vez tenga una centralización, para eso están los repositorios en la nube, en nuestro caso hemos decidido usar el proporcionado por GitHub, que almacenando nuestro repositorio de forma pública, nos permite un uso gratuito de sus servicios, además de poderse integrar con otras plataformas como Slack o Visual Studio Team Services, sin coste alguno. También podemos crear colaboradores y equipos de la misma manera. Con ese entorno montado, en nuestro windows descargamos gitbash y en mac usamos la terminal, para usar git.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img class="img-responsive" src="img/herramientas/visual.jpg" alt="sublime text">
+                                <p class="text-justify">Una vez montado el entorno de desarrollo local con su correspondiente control de versiones, necesitamos tener un servidor online de desarrollo y una forma de hacer subidas a dicho entorno. En nuestro caso pensamos en primer momento en usar los métodos tradicionales para hacer  esas subidas: FTP/SFTP y SSH/SCP con las herramientas típicas: FTP, Filezilla, PuTTY… Pero luego nos dimos cuenta de que es una manera muy poco eficiente de trabajar, ya que teniendo un control de versiones en la nube, lo suyo sería usar un sistema que nos permitiese automatizar esa subida desde nuestro repositorio hasta nuestro servidor de desarrollo. Ahí aparece Visual Studio Team Services con DevOps, que nos permite hacer subidas de código desde nuestro repositorio en GitHub hasta nuestro servidor Hostalia de manera automatizada y continua. Cada vez que hacemos push desde github y sube código, Visual Studio lo detecta, se baja el repositorio mediante “pull”, hace una “build”, y automáticamente hace una release (configurado así) y la despliega en Hostalia, en la carpeta a la que apunta el subdominio devel1.bytedesigning.net, teniendo así una integración continua.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://slack.com/"><img class="img-responsive" src="img/herramientas/slack.jpg" alt="slack"></a>
+                                <p class="text-justify">Slack es la herramienta que nos permite integrar las herramientas usadas en este proyecto para que nos avise automáticamente de cuándo se hacen subidas de código al repositorio de github, y de cuando se hacen despliegues en nuestro entorno de desarrollo online, además de decirnos si se han hecho bien o hay fallos. También, permite integrar gestión documental en la nube con la mayoría de proovedores.</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://www.hostalia.com/"><img class="img-responsive" src="img/herramientas/hostalia.jpg" alt="hostalia"></a>
+                                <p class="text-justify">Servidor de alojamiento web y servidor de bases de datos mysql. Lo elegimos por su simplicidad multisite, rápida configuración visual y bajo coste, teniendo todos los requisitos necesarios para este proyecto web.</p>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
