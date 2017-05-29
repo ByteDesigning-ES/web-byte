@@ -1,10 +1,10 @@
 @font-face {
     font-family: Niamey-Regular;
-    src: url("../fonts/Niamey-Regular.ttf");
-    font-weight: normal;
+    src: url(../fonts/Niamey-Regular.ttf);
+    font-weight: normal; 
 }
 a.navbar-brand.page-scroll.titulo-byte {
- font-family: Niamey-Regular !important;  
+ font-family: Niamey-Regular;  
  position: relative;
  left: 60px;
 }
