@@ -8,6 +8,9 @@ a.navbar-brand.page-scroll.titulo-byte {
  	position: relative;
     left: 53px;
 }
+.logofooter.titulo-byte{
+	font-family: Niamey-Regular; 
+}
 .logo-byte {
     display: block;
     width: 45px;
