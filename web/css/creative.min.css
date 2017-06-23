@@ -104,7 +104,7 @@
  	}
  @media (min-width:768px){
  	.navbar-default{
- 		background-color:transparent;
+ 		background-color:rgba(8, 8, 8, 0.68);
  		border-color:rgba(255,255,255,.3);
  	}
  .navbar-default .navbar-header .navbar-brand{
@@ -351,6 +351,7 @@
 .navbar-right {
     float: right!important;
     /* margin-right: -15px; */
+    margin-top: 7.5px;
 	}
 }
 /*responsive circulos equipo*/
