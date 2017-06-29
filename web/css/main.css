@@ -15,7 +15,8 @@ a.navbar-brand.page-scroll.titulo-byte {
     display: block;
     width: 45px;
     position: fixed;
-    top: 0px;
+        left: 10px;
+        top: 0px;
     margin: 3px;
 }
 li {
@@ -474,20 +475,6 @@ footer {
     border-color: #f05f40 !important;
     box-shadow: none;
 }
-label {
-    color:#f05f40 !important;
-}
-
-a {
-    color: rgb(240, 97, 67);
-    font-weight: 500;
-}
-
-h1{
-             font-size:25px;
-             text-align: left;
-             text-transform:capitalize;
-         }
         .service-box{
             position: relative;
             overflow: hidden;
