@@ -209,53 +209,6 @@ video {
     color: #ccc;
 }
 
-/* imagen luis boville lobo
-.flipL{
-display: inline-block;
-overflow: hidden;
-    -o-transition:all 1s ease-out;  
-    -moz-transition:all 1s ease-out;  
-    -ms-transition:all 1s ease-out;
-    position: relative;
-    right: 343px;
-
-    }*/
-/*.flipL:hover{
-opacity:0;
-}*/
-/*. imagen texto luis
-flip2 {
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    right: 33px;
-}*/
-
-/* imagen almudena mateo canton
-.flipA{
-display: inline-block;
-overflow: hidden;
-    -webkit-transition:all 1s ease-out;  
-    -o-transition:all 1s ease-out;  
-    -moz-transition:all 1s ease-out; 
-    -ms-transition:all 1s ease-out;
-    position: relative;
-    left: 105px;
-    bottom: 336px;
-    }
-    */
-
-/*.flip2a {
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    left: 415px;
-    bottom: 336px;
-}*/
-/*.flipA:hover{
-opacity:0;
-}*/
-
 /*footer 1 negro*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
@@ -610,6 +563,10 @@ h1{
         }
         .almudena{background-image: url(../img/almudena.jpg);}
         .luis{background-image: url(../img/luis.jpg);}
+        .yellow {background-color: yellow;}
+        .orange{background-color: orange}
+        .red{background-color: red;}
+        .grey{background-color: grey;}
         .service-box:hover .service-icon{
             opacity: 0;
             -webkit-transform: translateY(-110px) rotateX(90deg);
