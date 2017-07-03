@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="página web dedicada al diseño corporativo">
     <meta name="author" content="Almudena Mateo Cantón">
-    <title>Bytedesigning|Edición</title>
+    <title>Bytedesigning|Pago</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -53,54 +53,76 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <header class="background-edicion">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Grabación & edición de video <br> y fotografía</h1>
-                <hr>
-                <p>Grabamos videos para su empresa o compañía o editamos los que ya tiene. Además realizamos fotografías y las editamos con las mejores herramientass para un mayor resultado.</p>
-            </div>
-        </div>
-    </header> 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Editamos y grabamos sus videos</h2>
-                    <hr class="light">
-                    <p class="text-faded">En esta página podrán encontrar videos ya realizados para otros usuarios de Bytedesigning. Coméntenos cual es su estilo, qué es lo que desea y ¡nos pondremos manos a la obra!</p>
+ 
+<div class="caja-pago">
+    <div class="row">
+        <div class="col-lg-11 col-md-6 text-center">
+<!-- CREDIT CARD FORM STARTS HERE -->
+            <div class="panel panel-default credit-card-box">
+                <div class="panel-heading display-table" >
+                    <div class="row display-tr" >
+                        <h3 class="panel-title display-td">Detalles de pago</h3>
+                            <div class="display-td" >                            
+                            <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+                            </div>
+                    </div>                    
                 </div>
+                <div class="panel-body">
+                <form role="form" id="payment-form">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <label for="cardNumber">Número de tarjeta</label>
+                                <div class="input-group">
+                                    <input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
+                                    <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-7 col-md-7">
+                            <div class="form-group">
+                                <label for="cardExpiry"><span class="hidden-xs">Fecha de caducidad</span><span class="visible-xs-inline">Cad.</span>
+                                </label>
+                                <input type="tel" class="form-control" name="cardExpiry" placeholder="MM/YY" autocomplete="cc-exp" required/>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-md-5 pull-right">
+                            <div class="form-group">
+                                <label for="cardCVC">CV CODE</label>
+                                <input type="tel"  class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <label for="couponCode">Código descuento</label>
+                                <input type="text" class="form-control" name="couponCode" />
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="btn btn-default btn-xl sr-button" type="submit">Pagar</button>
+                        </div>
+                    </div>
+                    <div class="row" style="display:none;">
+                        <div class="col-xs-12">
+                            <p class="payment-errors"></p>
+                        </div>
+                    </div>
+                    <br>
+                </form>
             </div>
-        </div>
-    </section>             
-    <div class="text-center well">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iJUl73tybOI" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wIPJD-vesJY" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g_8tTHSHBFg" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rwFg7QwWzhc" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MewmsrANFDY" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tkd6ddcVIOg" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8nP4IcNEGcE" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Uo72fegIN0c" frameborder="0" allowfullscreen></iframe>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0rdeh1JolNg" frameborder="0" allowfullscreen></iframe>
-    </div>
+        </div>            
+<!-- CREDIT CARD FORM ENDS HERE -->
+    </div>            
+</div>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Realizamos y editamos sus fotografías</h2>
-                    <hr class="light">
-                    <p class="text-faded">Pueden enviarnos las fotografías que desee editar. O díganos que imágenes desea crear. Le garatizamos el mejor resultado.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-   
-   
-    <!--footer 1 negro-->
+<!--footer 1 negro-->
 <footer>
   <div class="container">
     <div class="row">
@@ -167,16 +189,18 @@
 </div>
 <!--fin footer 1 negro-->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/creative.min.js"></script>
+ <!-- If you're using Stripe for payments -->
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 </body>
 </html>
