@@ -550,10 +550,10 @@ footer {
         }
         .almudena{background-image: url(../img/almudena.jpg);}
         .luis{background-image: url(../img/luis.jpg);}
-        .yellow {background-color: yellow;}
-        .orange{background-color: orange}
-        .red{background-color: red;}
-        .grey{background-color: grey;}
+        .yellow {background-color: #FFA00E;}
+        .orange{background-color: #E8500C}
+        .red{background-color: #FF0000;}
+        .grey{background-color: #E10CE8;}
         .service-box:hover .service-icon{
             opacity: 0;
             -webkit-transform: translateY(-110px) rotateX(90deg);
@@ -570,3 +570,16 @@ footer {
             -o-transform: rotateX(0);
             transform: rotateX(0);
         }
+.subir {
+    display: block;
+    position: sticky;
+    bottom: -15px;
+    color: #F05F40;
+    }
+
+    .subir:hover {
+        color: rgba(240, 95, 64, 0.62);
+    }
+    .subir:visited {
+        color: rgba(240, 95, 64, 0.62);
+    }
