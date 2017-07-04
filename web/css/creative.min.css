@@ -24,9 +24,9 @@
  	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
  }
  hr{
- 	border-color:#F05F40;
- 	border-width:3px;
- 	max-width:50px;
+ 	border-color:#F05F40 !important;
+ 	border-width:3px !important;
+ 	max-width:50px !important;
  }
  hr.light{
  	border-color:#fff;
