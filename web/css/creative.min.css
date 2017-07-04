@@ -276,10 +276,10 @@
  		padding-left:0;
  	}
  	.btn-default{
- 		color:#fff;
- 		background-color:#f05f40;
- 		border-color: #f05f40;
- 		transition:all .35s;
+ 		color: #222;
+    	background-color: #fff;
+    	border-color: #fff;
+    	transition: all .35s;
  	}
  	.btn-default.active,.btn-default.focus,.btn-default:active,.btn-default:focus,.btn-default:hover,.open>.dropdown-toggle.btn-default{
  		color:#222;
