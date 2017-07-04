@@ -550,7 +550,7 @@ footer {
         }
         .almudena{background-image: url(../img/almudena.jpg);}
         .luis{background-image: url(../img/luis.jpg);}
-        .yellow {background-color: #FFA00E;}
+        .yellow {background-image:url(../img/pgraficos/tarjetas.jpg);}
         .orange{background-color: #E8500C}
         .red{background-color: #FF0000;}
         .grey{background-color: #E10CE8;}
@@ -583,7 +583,6 @@ footer {
     .subir:visited {
         color: rgba(240, 95, 64, 0.62);
     }
-
 /* CSS for Credit Card Payment form */
 .credit-card-box .panel-title {
     display: inline;
