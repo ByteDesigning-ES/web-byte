@@ -295,7 +295,7 @@
  		background-color:#222;
  	}
  	.btn-primary{
- 		color:#fff;
+ 		color:#fff !important;
  		background-color:#F05F40;
  		border-color:#F05F40;
  		-webkit-transition:all .35s;
