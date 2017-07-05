@@ -65,13 +65,15 @@
         }
 
         .service-box .service-icon .front-content i {
-            font-size: 28px;
+            font-size: 72px;
             color: #fff;
             font-weight: normal;
+            position: relative;
+                top: 51px;
         }
 
         .service-box .service-icon .front-content h3 {
-            font-size: 15px;
+            font-size: 20px;
             font-weight: bold;
             color: white;
             text-align: center;
@@ -79,6 +81,7 @@
             text-transform: uppercase;
             text-decoration: overline;
             text-decoration-color: #f05f40;
+            text-shadow: 0px -1px #333;
         }
         .service-box .service-content h3 {
             font-size: 15px;
