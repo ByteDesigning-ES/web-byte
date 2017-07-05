@@ -256,7 +256,7 @@ footer {
     font-size:12px;
 }
 .footer-ul li a { 
-    color:#a0a3a4; 
+    color:#a0a3a4 !important; 
     transition: color 0.2s linear 0s, background 0.2s linear 0s; 
 }
 .footer-ul i { 
@@ -551,9 +551,9 @@ footer {
         .almudena{background-image: url(../img/almudena.jpg);}
         .luis{background-image: url(../img/luis.jpg);}
         .yellow {background-image:url(../img/pgraficos/tarjetas.jpg);}
-        .orange{background-color: #E8500C}
-        .red{background-color: #FF0000;}
-        .grey{background-color: #E10CE8;}
+        .orange {background-image:url(../img/pgraficos/tarjetas.jpg);}        
+        .red {background-image:url(../img/pgraficos/tarjetas.jpg);}
+        .grey {background-image:url(../img/pgraficos/tarjetas.jpg);}
         .service-box:hover .service-icon{
             opacity: 0;
             -webkit-transform: translateY(-110px) rotateX(90deg);

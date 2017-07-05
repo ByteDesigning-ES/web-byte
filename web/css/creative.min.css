@@ -33,7 +33,7 @@
  }
  a{
  	transition:all .35s;
- 	color:#F05F40;
+ 	color:#F05F40 !important;
  }
  a:focus,a:hover{
  	color:#eb3812;
