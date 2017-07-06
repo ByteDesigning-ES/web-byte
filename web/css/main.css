@@ -267,6 +267,8 @@ footer {
     color:#ff670f; 
 }
  .copyright { 
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
     min-height:40px; 
     background-color:#000000;
     color: white;
@@ -275,7 +277,8 @@ footer {
     padding-top: 1px;
 }
  .copyright p { 
-    font-family: -webkit-body;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     text-align:left; 
     color:#FFF; 
     padding:10px 0; 
