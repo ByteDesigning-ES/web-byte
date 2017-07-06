@@ -163,7 +163,7 @@
  		font-size:30px;
  	}
  	header .header-content .header-content-inner hr{
- 		margin:30px auto;
+ 		margin:30px auto !important;
  	}
  	header .header-content .header-content-inner p{
  		font-weight:300;
