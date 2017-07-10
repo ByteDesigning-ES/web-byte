@@ -87,9 +87,9 @@ video {
     cursor: pointer;
     background-color: #000\9;
     background-color: rgba(0,0,0,0);
-    border: 1.1px solid #f05f40;
+    border: 1.1px solid #ffffff;
     border-radius: 10px;
 }
 .carousel-indicators .active {
-    background-color: #ffffff;
+    background-color: #f05f40;
 }
