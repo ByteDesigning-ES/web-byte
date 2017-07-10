@@ -17,13 +17,13 @@
       height: 480px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg); 
+  background-image: url(../img/slider/retrato-oscuro.jpg); 
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
+  background-image: url(../img/slider/mariposas.jpg);
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
+  background-image: url(../img/slider/retrato.jpg);
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
@@ -76,4 +76,20 @@ video {
     display: inline-block;
     width: 20%;
     margin: 0px auto;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1.1px solid #f05f40;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    background-color: #ffffff;
 }
