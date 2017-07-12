@@ -92,8 +92,9 @@
  	font-size:13px;
  	color: #f05f40;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-right: 10%;
+    margin-top: 3px;
 }
  }
  .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{
@@ -362,6 +363,12 @@
 @media only screen and (max-width:768px) {
 	#cajacontacto {
 		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width:768px) {
+	.container1 {
 		width: 100%;
 	}
 }
