@@ -7,8 +7,6 @@ a.navbar-brand.page-scroll.titulo-byte {
  	font-family: Niamey-Regular;  
  	position: relative;
     left: 53px;
-    top: 5px;
-
 }
 .logofooter.titulo-byte{
 	font-family: Niamey-Regular; 
@@ -18,19 +16,19 @@ a.navbar-brand.page-scroll.titulo-byte {
     width: 45px;
     position: fixed;
         left: 10px;
-        top: 4px;
+        top: 0px;
     margin: 3px;
 }
 li {
     display: list-item;
     list-style: none;
 }
-*:focus, *:active {
-    outline: none !important;
-}
 a:focus, 
 a:hover{
     text-decoration: none;
+}
+*:focus, *:active {
+    outline: none !important;
 }
 .mapa {
     display: block;
@@ -476,51 +474,7 @@ footer {
     font-weight: bolder;
     color: rgba(240, 95, 64, 0.62)
 }
-#custom-search-input{
-    display: inline-block;
-    width: 100%;
-    float: right;
-    padding: 3px;
-    border: solid 1px #f05f40;
-    border-radius: 6px;
-    background-color: rgba(240, 95, 64, 0);
-}
-
-#custom-search-input input{
-    border: 0;
-    box-shadow: none;
-}
-
-#custom-search-input button{
-    margin: 2px -2px 2px -3px;
-    background: none;
-    box-shadow: none;
-    border: 0;
-    color: #666666;
-    padding: 0 8px 0 10px;
-    border-left: solid 1px #ccc;
-}
-
-#custom-search-input button:hover{
-    border: 0;
-    box-shadow: none;
-    border-left: solid 1px #ccc;
-}
-
-#custom-search-input .glyphicon-search{
-    font-size: 23px;
-}
-
-.container1{
-    float: right;
-    display: inline-block;
-    width: 160px;
-    margin: 5px;
-    margin-top: 8px;
-}
-.container1 > div, .container1 > div > div{
-    display:inline-block;
-}
-button.btn.btn-info.btn-lg :focus, :active {
-    color: #f05f40;
+.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+    color: black;
 }

@@ -18,7 +18,7 @@
  }
  body{
  	font-family:Merriweather,'Helvetica Neue',Arial,sans-serif;
- 	-webkit-tap-highlight-color:#222
+ 	-webkit-tap-highlight-color: rgba(238, 238, 238, 0.24) !important;
  }
  .btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
  	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -363,12 +363,6 @@
 @media only screen and (max-width:768px) {
 	#cajacontacto {
 		display: block;
-		width: 100%;
-	}
-}
-
-@media (max-width:768px) {
-	.container1 {
 		width: 100%;
 	}
 }
